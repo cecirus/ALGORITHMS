@@ -1,0 +1,75 @@
+PARKINGGO
+
+PARKINGGO is an application designed to help drivers find an available parking spot in the 4 Towers Area of Madrid. 
+By combining a Quicksort algorithm to sort parking spots by proximity and a Greedy Algorithm to find the best match based on user preferences,
+the app provides an efficient and personalized parking solution.
+
+FEATURES:
+
+1. Sorts Spots by Proximity: The algorithm uses a Quicksort algorithm to rank parking spots based on 
+   their distance from the user's current location.
+
+2. Spot Selection: A Greedy Algorithm evaluates and selects the best parking spot considering:
+
+                 - Parking duration availability
+                 - Cost per minute
+                 - User preferences for cost vs. distance priority
+
+PREREQUISITES:
+
+  - Python 3x
+  - Required library: "pandas"
+
+INSTALLATION:
+
+  - Clone this repository:
+
+        git clone https://github.com/cecirus/PARKINGGO.git
+
+  - Install dependencies:
+
+        pip install pandas
+
+  - Add the parking dataset as a CSV file parking_spots.csv
+
+USAGE:
+
+1.  Run the Program: python parkinggo.py
+2.  Enter your location coordinates (latitude and longitude) when asked by the program.
+3.  Specify:
+  - Desired parking duration
+  - Importance of cost vs. distance.
+4.  The app will output:
+  - A sorted list of nearby parking spots.
+  - The best parking spot based on your preferences.
+
+#EXAMPLE OF INPUT
+
+Enter your latitude: 40.4785073
+Enter your longitude: -3.6919072
+How long do you plan to park (in minutes)? 120
+How important is cost? (Enter 1 for equal importance and 2 if it's a priority): 1
+How important is distance? (Enter 1 for equal importance and 2 if it's a priority): 2
+
+#EXAMPLE OF OUTPUT
+
+The best parking spot for you is:
+Name: Spot 12
+Cost per minute: $0.05
+Total cost for 120 minutes: $6.00
+Available time: 150 minutes
+Zone: Commercial
+
+CONTRIBUTORS:
+
+Martina Gonzalez, Cecilia Rus, Catalina Martinez, Emma Vizoso, Rocio Cepero
+
+
+
+
+
+
+
+
+
+
