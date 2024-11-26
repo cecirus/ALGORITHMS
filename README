@@ -54,11 +54,11 @@ How important is distance? (Enter 1 for equal importance and 2 if it's a priorit
 #EXAMPLE OF OUTPUT
 
 The best parking spot for you is:
-Name: Spot 12
-Cost per minute: $0.05
-Total cost for 120 minutes: $6.00
-Available time: 150 minutes
-Zone: Commercial
+Name: Spot 35
+Cost per minute: $0.01
+Total cost for 120 minutes: $1.20
+Available time: 240 minutes
+Zone: Sanitary
 
 CONTRIBUTORS:
 
